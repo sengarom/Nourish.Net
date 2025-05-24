@@ -96,6 +96,10 @@
     @apply border-border;
   }
 
+  html, body, #root {
+    @apply h-full;
+  }
+
   body {
     @apply bg-background text-foreground;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
